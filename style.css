@@ -16,10 +16,14 @@ body{
 
 /* HEADER */
 header{
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 10px;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
 }
 header h1{
     color: #dc3545;
@@ -55,7 +59,15 @@ header .navegacao-primaria li a:hover::after{
     padding: 0px;
     border-bottom: 4px solid #dc3545;
 }
-
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 /* DOWLOAD CV SEÇÃO */
 .section-div{
     animation: inicializar .7s forwards;
@@ -250,7 +262,7 @@ main .sobre{
         display: none;
     }
     .section-div{
-        background-image: url(img/Imagem2.png);
+        background-image: url(img/robo.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -264,6 +276,7 @@ main .sobre{
     header i{
         color: #f7f7f7;
         font-size: 3rem;
+        display:block !important;
     }
     header .navegacao-primaria.ativado{
         color: rgba(43, 42, 42, 0.176);
@@ -292,6 +305,14 @@ main .sobre{
     .sobre_conteudo{
         grid-column: 1/-1;
     }
+}
+@media(min-width:992px){
+    header i{
+        color: #f7f7f7;
+        font-size: 3rem;
+        display:none !important;
+    }
+
 }
 /* SEÇÃO SERVICES */
 
