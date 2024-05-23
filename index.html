@@ -12,28 +12,33 @@
         <h1>Dev <span>Flávio</span></h1>
         <nav>
             <ul aria-label="navegação primaria" class="navegacao-primaria">
-                <li><a href="http://">Home</a></li>
-                <li><a href="http://">Sobre</a></li>
-                <li><a href="http://">Resumo</a></li>
-                <li><a href="http://">Portfólio</a></li>
-                <li><a href="http://">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#historico">Histórico</a></li>
+                <!-- <li><a href="#Contato">Contato</a></li> -->
             </ul>
             <i class="fa-solid fa-bars esconder"></i>
         </nav>
     </header>
-    <section aria-label="Seção curriculo dowload Flávio" class="section-div">
+    <section id="home" aria-label="Seção curriculo dowload Flávio" class="section-div">
 
         <div>
             <h2>Olá! Eu sou</h2>
-            <h2 class="digitando">Desenvolvedor Web e data Science</h2>
-            <p>Sou desenvolvedor web e data scientist apaixonado por soluções inovadoras. Com sólido conhecimento em programação e análise de dados, tenho experiência em desenvolvimento web, análise de dados e implementação de modelos de machine learning. Comprometido com a qualidade, busco constantemente atualizações nas últimas tendências e tecnologias do setor.
+            <h2 class="digitando">Analista e Desenvolvedor Web</h2>
+            <p>Sou um desenvolvedor web e analista apaixonado por soluções inovadoras, 
+                com sólido conhecimento em programação, análise de dados e implementação de modelos de machine learning. 
+                Tenho experiência significativa na área de qualidade da logística e expertise em sistemas SAP, WMS, 
+                Looker e Power BI. Ao longo da minha carreira, participei ativamente de auditorias, padronização de 
+                processos e treinamentos, sempre buscando aprimorar minhas habilidades e acompanhar as últimas tendências 
+                do setor.
             </p>
             <a href="currículo.pdf">Dowload CV</a>
         </div>
         <img src="img/robo.jpeg" alt="ilustrativa imagem de uma pessoa">
     </section>
     <main>
-        <article aria-label="Seção sobre mim" class="sobre">
+        <article aria-label="Seção sobre mim" class="sobre" id="sobre">
             <div class="sobre_titulo">
                 <h1>Sobre Mim</h1>
                 <p>Perfil Profissional - Aqui está Tudo Sobre Mim</p>
@@ -43,14 +48,25 @@
                     <span></span>
                 </div>
             </div>
-            <img src="img/OIG3.jpeg" alt="imagem de uma pessoa ilustrativa">
+            <img src="img/minhaImg.png" alt="imagem de uma pessoa ilustrativa">
             <div class="sobre_conteudo">
                 <div class="sobre_texto">
-                    <h1>I'm Dev Saber - Flávio</h1>
-                    <p>Profissional com expertise em Melhoria Contínua através do Kaizen e especialização em Gerenciamento e Controle de Qualidade. 
-                        Proficiente em otimizar processos, liderar projetos conforme metodologias de Gerenciamento de Projetos, e implementar estratégias de Controle de Qualidade para garantir padrões elevados. 
-                        Complementando minha formação, possuo habilidades em Python e desenvolvimento web. Reforço minhas habilidades em resolução de problemas, análise de dados e liderança de equipes multifuncionais.
+                    <h1>Flávio Henrique</h1>
+                    <p>Profissional com expertise em Melhoria Contínua através do Kaizen e especialização em 
+                        Gerenciamento e Controle de Qualidade. Formado em Logística e cursando Análise e Desenvolvimento 
+                        de Sistemas, possuo habilidades em otimizar processos, liderar projetos conforme metodologias de 
+                        Gerenciamento de Projetos e implementar estratégias de Controle de Qualidade para garantir padrões 
+                        elevados. Complementando minha formação, possuo habilidades em Python e desenvolvimento web. 
+                        Reforço minhas habilidades em resolução de problemas, análise de dados e liderança de equipes 
+                        multifuncionais.
                     </p>
+                    <div class="divFormacao">
+                        <h2>Formação Acadêmica</h2>
+                        <ul>
+                            <li>Análise e Desenvolvimento de Sistemas - Wyden (Cursando)</li>
+                            <li>Logística - Universidade Unopar 2020</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="sobre_info">
                     <p><i class="fa-solid fa-calendar-days"></i>Data de Nascimento: 05 Fev 1991</p>
@@ -63,10 +79,10 @@
             </div>
         </article>
     </main>
-    <section class="services">
+    <section class="services" id="resumo">
         <div class="sobre_titulo">
-            <h1>About Me</h1>
-            <p>Professional profile - There is All About me</p>
+            <h1>Resumo</h1>
+            <p>Minhas Habilidades</p>
             <div aria-label="Seção  apenas de ilustrações de botões">
                 <span></span>
                 <span></span>
@@ -111,6 +127,84 @@
                     <p>Experiente em desenvolvimento colaborativo, fundamentos de front-end e algoritmos em JavaScript. Proficiente no uso do Angular Framework, com habilidades avançadas em criação e otimização de aplicações web responsivas.</p>
                 </li>
             </ul>
+        </div>
+    </section>
+    <section id="historico" aria-label="Seção curriculo dowload Flávio" class="section-hist">
+        <div class="sobre_titulo">
+            <h1>Histórico</h1>
+            <p>Experiência Profissional</p>
+            <div aria-label="Seção  apenas de ilustrações de botões">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="hist_conteudo">
+            <div>
+                <h2>Analista de Qualidade</h2>
+                <div class="hist_div">
+                    <p>Americanas s.a.</p>
+                    <p>Março 2024 – Abril 2024</p>
+                </div>
+                <ul>
+                    <li>Utilizei ferramentas de qualidade como FCA, PDCA e DMAIC para aprimorar processos internos e promover a Melhoria Contínua.</li>
+                    <li>Comandei com sucesso iniciativas de 5S e conduzi auditorias internas.</li>
+                    <li>Atuei como Auditor Interno no Programa de Excelência Logística (PEL).</li>
+                    <li>Utilizei o sistema SAP para gestão de dados e tomadas de decisões informadas.</li>
+                    <li>Desenvolvimento e utilização de métricas e indicadores de desempenho relevantes para avaliar o progresso e a eficácia dos processos.</li>
+                    <li>Realizei auditorias de processos para garantir conformidade com padrões de qualidade e eficiência operacional.</li>
+                </ul>
+            </div>
+            <div class="divHr">
+                <hr>
+            </div>
+            <div>
+                <h2>Líder de Operações</h2>
+                <div class="hist_div">
+                    <p>Americanas s.a.</p>
+                    <p>Junho 2021 – Março 2024</p>
+                </div>
+                <ul>
+                    <li>Experiência sólida em um papel de liderança na área de qualidade.</li>
+                    <li>Experiência em Ferramentas de Qualidade, como FCA, PDCA e DMAIC e Utilização dessas ferramentas para aprimorar processos internos e Melhoria Contínua.</li>
+                    <li>Comandei com sucesso iniciativas de 5S e conduzi auditorias internas.</li>
+                    <li>Desempenho do papel de Auditor Interno no Programa de Excelência Logística (PEL).</li>
+                    <li>Proficiência com o sistema SAP para gestão de dados e tomada de decisões informadas.</li>
+                    <li>Desenvolvimento e utilização de métricas e indicadores de desempenho relevantes para avaliar o progresso e a eficácia dos processos.</li>
+                    <li>Auditorias de Processos para avaliar a conformidade com padrões de qualidade e eficiência operacional.</li>
+                    <li>Utilização de técnica de gestão efetiva para impulsionar o desempenho da equipe.</li>
+                </ul>
+            </div>
+            <div class="divHr">
+                <hr>
+            </div>
+            <div>
+                <h2>Auxiliar Administrativo</h2>
+                <div class="hist_div">
+                    <p>Americanas s.a.</p>
+                    <p>Julho 2019 - Junho 2021</p>
+                </div>
+                <ul>
+                    <li>Faturamento de mercadorias para fornecedor e assistência técnica.</li>
+                    <li>Inventario de mercadorias e tratamento de estoque no sistema SAP.</li>
+                    <li>Manter o estoque saudável.</li>
+                </ul>
+            </div>
+            <div class="divHr">
+                <hr>
+            </div>
+            <div>
+                <h2>Conferente</h2>
+                <div class="hist_div">
+                    <p>Americanas s.a.</p>
+                    <p>Março 2014 - Julho 2019</p>
+                </div>
+                <ul>
+                    <li>Conferir entrada e saída de mercadorias.</li>
+                    <li>Fazer contagem de mercadoria no inventário.</li>
+                    <li>Conferir mercadorias na assistência técnica.</li>
+                </ul>
+            </div>
         </div>
     </section>
     <script src="script.js"></script>
