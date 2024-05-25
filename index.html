@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body class="dark" id="body">
     <header>
         <h1>Dev <span>Flávio</span></h1>
         <nav>
@@ -16,7 +17,15 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#resumo">Resumo</a></li>
                 <li><a href="#historico">Histórico</a></li>
-                <!-- <li><a href="#Contato">Contato</a></li> -->
+
+                    <!-- <li><a href="#Contato">Contato</a></li> -->
+                    <div class="toggle">
+                        <span>Dark Mode</span>
+                        <div class="dark-mode-switch">
+                        <div class="dark-mode-switch-ident"></div>
+                        </div>
+                    </div>
+
             </ul>
             <i class="fa-solid fa-bars esconder"></i>
         </nav>
@@ -35,7 +44,7 @@
             </p>
             <a href="currículo.pdf">Dowload CV</a>
         </div>
-        <img src="img/robo.jpeg" alt="ilustrativa imagem de uma pessoa">
+        <img src="img/RoboSemFundo.png" alt="ilustrativa imagem de uma pessoa">
     </section>
     <main>
         <article aria-label="Seção sobre mim" class="sobre" id="sobre">
@@ -69,9 +78,9 @@
                     </div>
                 </div>
                 <div class="sobre_info">
-                    <p><i class="fa-solid fa-calendar-days"></i>Data de Nascimento: 05 Fev 1991</p>
+                    <p><i class="fa-solid fa-calendar-days"></i>Data de Nascimento: 05 fev 1991</p>
                     <p><i class="fa-sharp fa-solid fa-laptop-code"></i>Freelance: Disponível</p>
-                    <p><i class="fa-solid fa-location-dot"></i>Endereço: Pernambuco,Brasil</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Endereço: Pernambuco, Brasil</p>
                     <p><i class="fa-sharp fa-flag"></i>Nacionalidade: Brasileiro</p>
                     <p><i class="fa-solid fa-phone-volume"></i>Telefone:+55 (81) 98820-2052</p>
                     <p><i class="fa-solid fa-envelope"></i>Email: fla-henrique@hotmail.com</p>
@@ -144,7 +153,7 @@
                 <h2>Analista de Qualidade</h2>
                 <div class="hist_div">
                     <p>Americanas s.a.</p>
-                    <p>Março 2024 – Abril 2024</p>
+                    <p>março 2024 – abril 2024</p>
                 </div>
                 <ul>
                     <li>Utilizei ferramentas de qualidade como FCA, PDCA e DMAIC para aprimorar processos internos e promover a Melhoria Contínua.</li>
@@ -162,7 +171,7 @@
                 <h2>Líder de Operações</h2>
                 <div class="hist_div">
                     <p>Americanas s.a.</p>
-                    <p>Junho 2021 – Março 2024</p>
+                    <p>junho 2021 – março 2024</p>
                 </div>
                 <ul>
                     <li>Experiência sólida em um papel de liderança na área de qualidade.</li>
@@ -182,7 +191,7 @@
                 <h2>Auxiliar Administrativo</h2>
                 <div class="hist_div">
                     <p>Americanas s.a.</p>
-                    <p>Julho 2019 - Junho 2021</p>
+                    <p>julho 2019 - junho 2021</p>
                 </div>
                 <ul>
                     <li>Faturamento de mercadorias para fornecedor e assistência técnica.</li>
@@ -197,7 +206,7 @@
                 <h2>Conferente</h2>
                 <div class="hist_div">
                     <p>Americanas s.a.</p>
-                    <p>Março 2014 - Julho 2019</p>
+                    <p>março 2014 - julho 2019</p>
                 </div>
                 <ul>
                     <li>Conferir entrada e saída de mercadorias.</li>
