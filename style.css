@@ -102,6 +102,20 @@ header .navegacao-primaria li a:hover::after{
     padding: 0px;
     border-bottom: 4px solid var(--text-second);
 }
+.social-icons {
+    display: flex !important;
+    gap: 10px;
+    margin-left: 10vw;
+}
+.social-icons a i{
+    display: flex !important;
+    font-size: 1.5rem;
+    color: var(--text-second);
+}
+.social-icons a i:hover{
+    font-size: 1.8rem;
+}
+
 /* NAV */
 nav {
     display: flex;
