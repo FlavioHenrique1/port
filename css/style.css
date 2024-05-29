@@ -594,3 +594,6 @@ main .sobre{
     top: 2px;
     left: calc(2px + 50%);
 }
+.navegacao-primaria li a.active {
+    border-bottom: 4px solid var(--text-second);
+}

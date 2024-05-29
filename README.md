@@ -45,18 +45,39 @@ Profissional com expertise em Melhoria Contínua através do Kaizen e especializ
 ### Formação Acadêmica
 
 - **Análise e Desenvolvimento de Sistemas (Cursando)**
-  - Universidade XYZ (Data de Início - Presente)
+  - Universidade Wyden  (01/2023 - Presente)
 - **Logística (Concluído)**
-  - Universidade ABC (Data de Conclusão)
+  - Universidade Unopar  (2020)
 
 ### Experiência Profissional
 
-- **[Nome da Empresa]**
-  - Cargo: [Cargo]
-  - Período: [Data de Início] - [Data de Término]
-  - Descrição: Breve descrição das responsabilidades e realizações.
+- **[Americanas s.a.]**
+  - Cargo: [Analista de Qualidade]
+  - Período: [março 2024] - [abril 2024]
+  - Descrição: Utilizei ferramentas de qualidade como FCA, PDCA e DMAIC para aprimorar processos internos e promover a Melhoria Contínua.
+  Comandei com sucesso iniciativas de 5S e conduzi auditorias internas.
+  Atuei como Auditor Interno no Programa de Excelência Logística (PEL).
+  Utilizei o sistema SAP para gestão de dados e tomadas de decisões informadas.
+  Desenvolvimento e utilização de métricas e indicadores de desempenho relevantes para avaliar o progresso e a eficácia dos processos.
+  Realizei auditorias de processos para garantir conformidade com padrões de qualidade e eficiência operacional.
 
-- **[Nome da Empresa]**
-  - Cargo: [Cargo]
-  - Período: [Data de Início] - [Data de Término]
-  - Descrição: Breve descrição das responsabilidades e realizações.
+
+- **[Americanas s.a.]**
+  - Cargo: [Líder de Operações]
+  - Período: [junho 2021] - [março 2024]
+  - Descrição: Experiência sólida em um papel de liderança na área de qualidade.
+  Experiência em Ferramentas de Qualidade, como FCA, PDCA e DMAIC e Utilização dessas ferramentas para aprimorar processos internos e Melhoria Contínua.
+  Comandei com sucesso iniciativas de 5S e conduzi auditorias internas.
+  Desempenho do papel de Auditor Interno no Programa de Excelência Logística (PEL).
+  Proficiência com o sistema SAP para gestão de dados e tomada de decisões informadas.
+  Desenvolvimento e utilização de métricas e indicadores de desempenho relevantes para avaliar o progresso e a eficácia dos processos.
+  Auditorias de Processos para avaliar a conformidade com padrões de qualidade e eficiência operacional.
+  Utilização de técnica de gestão efetiva para impulsionar o desempenho da equipe.
+
+
+- **[Americanas s.a.]**
+- Cargo: [Auxiliar Administrativo]
+- Período: [julho 2019] - [ junho 2021]
+- Descrição: Faturamento de mercadorias para   fornecedor e assistência técnica.
+    Inventario de mercadorias e tratamento de estoque no sistema SAP.
+    Manter o estoque saudável.
