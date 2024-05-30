@@ -516,6 +516,33 @@ main .sobre{
     border-bottom: 2px solid var(--text-second);
     border-left: 2px solid var(--text-second);
 }
+/* Pagination styles */
+.pagination {
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.pagination button {
+    background-color: var(--bg-main);
+    color: var(--color-txt);
+    margin: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid var(--color-txt);
+    /* width: 10%; */
+    text-align: center;
+}
+
+.pagination button:hover {
+    background-color: var(--text-second);
+}
+
+.pagination button:disabled {
+    background-color: var(--bg-ter);
+    cursor: not-allowed;
+}
+
 /* SEÇÃO HISTÓRICO */
 .section-hist{
     animation: inicializar .7s forwards;

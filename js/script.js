@@ -58,3 +58,55 @@ document.addEventListener('scroll', function() {
         }
     });
 });
+
+// Pagination
+document.addEventListener("DOMContentLoaded", function() {
+    const itemsPerPage = 6;
+    const skillsList = document.getElementById("skillsList");
+    const skillsItems = skillsList.querySelectorAll("li");
+    let currentPage = 1;
+    const totalPages = Math.ceil(skillsItems.length / itemsPerPage);
+
+    function showPage(page) {
+        const start = (page - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+
+        skillsItems.forEach((item, index) => {
+            if (index >= start && index < end) {
+                item.style.display = "block";
+            } else {
+                item.style.display = "none";
+            }
+        });
+    }
+
+    function updatePaginationButtons() {
+        const prevButton = document.querySelector("#paginationControls button:first-child");
+        const nextButton = document.querySelector("#paginationControls button:last-child");
+
+        prevButton.disabled = currentPage === 1;
+        nextButton.disabled = currentPage === totalPages;
+    }
+
+    function prevPage() {
+        if (currentPage > 1) {
+            currentPage--;
+            showPage(currentPage);
+            updatePaginationButtons();
+        }
+    }
+
+    function nextPage() {
+        if (currentPage < totalPages) {
+            currentPage++;
+            showPage(currentPage);
+            updatePaginationButtons();
+        }
+    }
+
+    document.querySelector("#paginationControls button:first-child").addEventListener("click", prevPage);
+    document.querySelector("#paginationControls button:last-child").addEventListener("click", nextPage);
+
+    showPage(currentPage);
+    updatePaginationButtons();
+});
